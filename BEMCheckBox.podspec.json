@@ -19,7 +19,7 @@
   },
   "requires_arc": true,
   "source": {
-    "git": "https://github.com/Boris-Em/BEMCheckBox.git",
+    "git": "https://github.com/winddpan/BEMCheckBox.git",
     "tag": "v1.0.0"
   },
   "source_files": [

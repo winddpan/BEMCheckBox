@@ -78,9 +78,13 @@ typedef NS_ENUM(NSInteger, BEMAnimationType) {
  */
 @property (nonatomic) IBInspectable BOOL on;
 
-/** The width of the lines of the check mark and the box. Default to 2.0.
+/** The width of the lines of the the box. Default to 2.0.
  */
 @property (nonatomic) IBInspectable CGFloat lineWidth;
+
+/** The width of the lines of the check mark. If not set, use the lineWidth value.
+ */
+@property (nonatomic) IBInspectable CGFloat checkMarkLineWidth;
 
 /** The corner radius which is applied to the box when the boxType is BEMBoxTypeSquare. Default to 3.0.
  */

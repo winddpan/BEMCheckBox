@@ -301,7 +301,7 @@
     self.checkMarkLayer.frame = self.bounds;
     self.checkMarkLayer.path = [self.pathManager pathForCheckMark].CGPath;
     self.checkMarkLayer.strokeColor = self.onCheckColor.CGColor;
-    self.checkMarkLayer.lineWidth = self.lineWidth;
+    self.checkMarkLayer.lineWidth = self.checkMarkLineWidth > 0 ? self.checkMarkLineWidth : self.lineWidth;
     self.checkMarkLayer.fillColor = [UIColor clearColor].CGColor;
     self.checkMarkLayer.lineCap = kCALineCapRound;
     self.checkMarkLayer.lineJoin = kCALineJoinRound;
